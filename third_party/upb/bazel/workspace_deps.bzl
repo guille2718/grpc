@@ -15,7 +15,7 @@ def upb_deps():
         git_repository,
         name = "com_google_protobuf",
         remote = "https://github.com/protocolbuffers/protobuf.git",
-        commit = "d41002663fd04325ead28439dfd5ce2822b0d6fb",  # Need to use Git until proto3 optional is released
+        commit = "92e3d3e02a886839c75aca74dab4d0ea4cef8eb8",  # Need to use Git until proto3 optional is released
     )
 
     maybe(
